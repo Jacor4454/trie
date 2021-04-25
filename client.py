@@ -145,9 +145,9 @@ while existance is futile:
         print("predict - the word following it will be used to search the list for any words it can be the first part of (like auto predict)")
         print("delete  -  the word following it will be deleted for in the trie (but all data will remain)")
         print("purge  -  the word following it will be searched for in the trie (and all data will be removed if able to do so)")
-        print("display  -  copies current trie data to your device and displays it\n")
+        print("display  -  copies current trie data to your device and displays it")
         print("quit - stops the connection and terminates program (please use rather than ctrl C,")
-        print("it still works but ctrl C takes time for the server to realise the connection has been lost)")
+        print("it still works but ctrl C takes time for the server to realise the connection has been lost)\n")
         print("input a command (or help for commands)")
         send = input()
 
