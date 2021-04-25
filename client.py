@@ -102,8 +102,8 @@ from_server = client.recv(4096)
 print("pysically connected")
 
 while existance is futile:
-    if sendall == "endpoint!":
-        sendall += "hahafool"
+    if send == "endpoint!":
+        send += "hahafool"
     client.sendall((send).encode('utf-8'))
     client.sendall(("endpoint!").encode('utf-8'))
     
