@@ -10,4 +10,14 @@ The server hosts the trie as a global value between 2 different types of threads
 
 As said above all you really need is the client (and an internet connection and the python libraries sys, os, socket and pygame, but if you have python you will almost certainly have the first 3), just download the client, save it to a location and copy/memorise the directory, then run in command line or termonal with the python command (python for windows or python3 for linux) followed by the file location (something like C:\a_place\maybe_another\client.py) and there you have it, you will automatically be linked to a server and any supported commands you enter (commands will be written below but can also be sen by typing help into the running codes interface). 
 
-commands:
+## client commands:
+        search  -  the word following it will be searched for in the trie
+        add  -  the word following it will be added to the trie
+        delete  -  the word following it will be deleted for in the trie (but all data will remain)
+        purge  -  the word following it will be searched for in the trie (and all data will be removed if able to do so)
+        display  -  copies current trie data to your device and displays it
+        quit - stops the connection and terminates program (please use rather than ctrl C, it still works but ctrl C takes time for the server to realise the connection has been lost)
+
+## last words
+
+this was a project that was very out of my comfort zone, the only thing I have had previous experience on starting a week ago was the trie itself, I had to do some much documentation reading for the socket and threading libraries and aws server FAQs), but its now working and my one regret is not having more time to enjoy th elearning process, rather than this REALLY steap learning curve I was faced with, but hey ho. 
