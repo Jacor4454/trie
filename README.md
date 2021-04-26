@@ -8,7 +8,7 @@ The server hosts the trie as a global value between 2 different types of threads
 
 ## client(.py) installation
 
-As said above all you really need is the client (and an internet connection and the python libraries sys, os, socket and pygame, but if you have python you will almost certainly have the first 3), just download the client, save it to a location and copy/memorise the directory, then run in command line or terminal with the python command (python for windows or python3 for linux) followed by the file location (something like C:\a_place\maybe_another\client.py) and there you have it, you will automatically be linked to a server and any supported commands you enter (commands will be written below but can also be seen by typing help into the running codes interface). 
+As said above all you really need is the client and the .ttf file (and an internet connection and the python libraries sys, os, socket and pygame, but if you have python you will almost certainly have the first 3), just download the client and Roboto.ttf, save it to a location and copy/memorise the directory, then run in command line or terminal with the python command (python for windows or python3 for linux) followed by the file location (something like C:\a_place\maybe_another\client.py) and there you have it, you will automatically be linked to a server and any supported commands you enter (commands will be written below but can also be seen by typing help into the running codes interface). 
 
 ## client commands:
         search  -  the word following it will be searched for in the trie
