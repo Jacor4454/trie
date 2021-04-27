@@ -1,3 +1,5 @@
+(please note I had to manually reset the server at about 9:30 (UK time) on the 27/4/21 because I updated the servers os, if you added words before they will have been removed, sorry for the inconvenience)
+
 # a trie hosted on a server that can host multiple concurrect clients
 
 Hi, this is the code for a trie that is hosted on a server, how you add it to a server is up to you but mine is running on an AWS server.
