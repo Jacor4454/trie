@@ -18,6 +18,7 @@ As said above all you really need is the client and the .ttf file (and an intern
         delete  -  the word following it will be deleted for in the trie (but all data will remain)
         purge  -  the word following it will be searched for in the trie (and all data will be removed if able to do so)
         display  -  copies current trie data to your device and displays it
+        predict - searches for possible words that start with the given input
         quit - stops the connection and terminates program (please use rather than ctrl C, it still works but ctrl C takes time for the server to realise the connection has been lost)
 
 ## last words
