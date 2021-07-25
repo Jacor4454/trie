@@ -2,7 +2,7 @@
 
 # a trie hosted on a server that can host multiple concurrect clients
 
-Hi, this is the code for a trie that is hosted on a server, how you add it to a server is up to you but mine is running on an AWS server.
+Hi, this is the code for a trie that is hosted on a server, how you add it to a server is up to you but mine is running on an AWS server (update: i took it down after a couple of weeks).
 
 ## server (trie3.py)
 
